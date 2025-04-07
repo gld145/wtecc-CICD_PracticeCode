@@ -5,7 +5,7 @@ on:
   pull request:
     branches: ["main"]
 
-jobs:
+jobs: 
     build:
       runs-on: ubuntu-latest
       container: python:3.9-slim
